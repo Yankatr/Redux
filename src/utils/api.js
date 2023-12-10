@@ -1,6 +1,6 @@
 import axios from "axios"
-const instance = axios.create({ baseURL: import.meta.env с VITE_DB_URL = 'http://localhost:3000/' })
-
+//const instance = axios.create({ baseURL: import.meta.env с VITE_DB_URL = 'http://localhost:3000/' })
+const instance = axios.create({ baseURL: 'http://localhost:3000/' })
 export class Api {
     static getNotes = async (params) => {
         try {
